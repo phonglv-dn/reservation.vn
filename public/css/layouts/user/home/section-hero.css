@@ -1,0 +1,272 @@
+.us-section-hero {
+  padding-bottom: 0;
+  padding-top: 40px;
+}
+
+.us-section-hero__left {
+  padding-bottom: 56px;
+}
+
+.us-section-hero__left h2 {
+  font-size: 3.25rem;
+  line-height: 3.5rem;
+  line-height: 114%;
+}
+
+.search-area {
+  z-index: 10;
+  margin-bottom: 96px;
+}
+
+.us-hero-search {
+  max-width: 1152px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.us-hero-search-form {
+  border-radius: 1.5rem;
+  margin-top: 32px;
+  box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+}
+
+.us-hero-search-form svg {
+  font-size: 26px;
+}
+
+.us-location-search {
+  flex: 2 0;
+}
+
+.us-location-search__wrap {
+  cursor: pointer;
+  flex: 1 1;
+  padding: 12px 16px;
+}
+
+.us-location-search__wrap:focus {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 2rem;
+  outline: none;
+}
+
+.us-hero-search-form input {
+  outline: none;
+  border: none;
+  top: -4px;
+  background-color: transparent;
+}
+
+.us-hero-search-form input:focus-visible {
+  outline: none;
+}
+
+.us-hero-search-form input::placeholder {
+  color: #000;
+  transition: .3s;
+}
+
+.us-hero-search-form input:focus::placeholder {
+  color: rgba(209, 213, 219);
+}
+
+.stay-dates-range-input {
+  z-index: 10;
+}
+
+.checkin-date__wrap {
+  flex: 1 1;
+  cursor: pointer;
+  padding: 12px 16px;
+}
+
+.datepicker-toggle {
+  display: inline-block;
+  position: relative;
+}
+
+.item-search-lb {
+  cursor: pointer;
+}
+
+/* Date Picker */
+
+.checkin-date .react-datepicker__input-container {
+  position: unset!important;
+}
+
+.datepicker-input::-webkit-calendar-picker-indicator {
+  display: none;
+  z-index: -1;
+}
+
+.react-datepicker {
+  border-radius: 1.5rem!important;
+  border: 1px solid rgb(243,244,246)!important;
+  padding: 16px;
+  top: 48px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.react-datepicker__navigation {
+  top: 15px!important;
+}
+
+.react-datepicker__triangle::before {
+  border-bottom-color:transparent!important;
+}
+
+.react-datepicker__triangle::after {
+  border-bottom-color: #fff!important;
+}
+
+.react-datepicker__header {
+  background-color: transparent!important;
+}
+
+.react-datepicker__navigation {
+  transition: .3s;
+  border-radius: 50%;
+}
+
+.react-datepicker__navigation--previous {
+  left: 10px!important;
+}
+
+.react-datepicker__navigation--next {
+  right: 10px!important;
+}
+
+.react-datepicker__navigation-icon--previous, .react-datepicker__navigation-icon--next {
+  right: 0!important;
+  left: 0!important;
+}
+
+/* End Date Picker */
+
+.us-hero-search-btn {
+  flex: 0.25 0;
+}
+
+.us-hero-search-btn a {
+  cursor: pointer;
+  height: 56px;
+  border-radius: 5rem;
+  transition: .3s;
+}
+
+.us-hero-search-btn a:hover {
+  background-color:rgba(67,56,202);
+  color: #fff;
+}
+
+@media (min-width: 1280px) {
+  .us-section-hero__left {
+    padding-right: 56px;
+    margin-right: 0;
+  }
+
+  .us-section-hero__left h2 {
+    font-size: 6.5rem;
+    line-height: 1;
+  }
+
+  .us-hero-search {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .us-location-search__wrap {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .checkin-date__wrap {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .us-section-hero {
+    padding-top: 56px;
+  }
+
+  .us-section-hero__left {
+    padding-bottom: 256px;
+    margin-right: 40px;
+    width: 50%;
+  }
+
+  .us-hero-search-form {
+    border-radius: 5rem;
+  }
+
+  .stay-dates-range-input {
+    flex: 2 0;
+  }
+
+  .checkin-date {
+    border-style: none;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .us-section-hero__left h2 {
+    font-size: 5rem;
+    line-height: 1;
+  }
+
+  .us-section-hero__left span {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: calc(32px);
+  }
+  
+  .us-section-hero__left button {
+    margin-top: calc(32px);
+  }
+
+  .us-location-search__wrap {
+    padding-bottom: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 16px;
+  }
+
+  .checkin-date__wrap {
+    padding-bottom: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 16px;
+  }
+
+  .react-datepicker__navigation:hover {
+    background-color:rgba(67,56,202);
+    color: #fff;
+  }
+
+  .us-hero-search-btn a {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media (min-width: 640px) {
+  .us-section-hero__left span {
+    margin-top: calc(40px);
+  }
+
+  .us-section-hero__left button {
+    margin-top: calc(40px);
+  }
+  .checkin-date {
+    border-right-width: 1px;
+    border-left-width: 1px;
+  }
+}

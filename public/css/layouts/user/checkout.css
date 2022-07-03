@@ -1,0 +1,124 @@
+.confirm-checkout__box{
+  padding: 32px;
+  border: 1px solid #ccc;
+  border-radius:1rem;
+}
+.confirm-checkout__box h2{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+.border-checkout{
+  border-bottom: 1px solid #ccc;
+  margin-top:32px;
+}
+.checkout-yourtrip__box{
+  margin-top: 32px;
+}
+.checkout-yourtrip__box h3{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+.checkout-yourtrip__border{
+  display:flex;
+  border: 1px solid #ccc;
+  border-radius:1rem;
+}
+.checkout-form-yourtrip{
+  justify-content:space-between;
+  display:flex;
+  padding: 20px;
+}
+.checkout-form-yourtrip__left{
+  border-right: 1px solid #ccc;
+}
+.light-letters{
+  color: rgb(156,163,175);
+}
+.checkout-form-yourtrip__bot-title{
+  font-weight:600;
+}
+.total__info-hotel--img img {
+  width: 160px;
+  height: 160px;
+  border-radius:1rem;
+  overflow: hidden;
+}
+.total{
+  padding: 32px;
+  border: 1px solid #ccc;
+  border-radius:1rem;
+}
+.total__top{
+  display:flex;
+}
+.total__info-hotel{
+  padding:1.25rem;
+}
+.total__info-hotel--title{
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+.total__info-hotel--cate{
+  margin-top: 2px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: block;
+  font-weight:500;
+  margin-bottom: 8px;
+}
+.border-total{
+  width: 40px;
+  border-bottom: 1px solid #ccc;
+  margin: 0.75rem 0;
+}
+.total__star i {
+  color: rgb(239 68 68);
+  margin-right:0.25rem;
+}
+.total__bot h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.total__bot{
+  margin-top: 2rem;
+}
+.border-total-bot{
+  border-bottom: 1px solid #ccc;
+  margin: 0.75rem 0;
+}
+.checkout-pay__box{
+  margin-top: 2rem;
+}
+.checkout-pay__box h3{
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.checkout-img-pay{
+  height:23px
+}
+.checkout-paypal{
+  color: #fff;
+  background-color: #000;
+  padding: 10px 24px;
+  border-radius:2rem;
+}
+.checkout-visa span{
+  margin-right: 10px;
+}
+.checkout-visa{
+  border-radius:2rem;
+  background: transparent;
+  padding: 10px 24px;
+}
+.checkout-btn button{
+  border: none;
+}

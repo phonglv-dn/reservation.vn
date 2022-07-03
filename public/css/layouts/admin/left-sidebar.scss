@@ -1,0 +1,84 @@
+a {
+    text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.side-menu.left {
+  bottom: 50px;
+  height: 100%;
+  margin-bottom: -70px;
+  margin-top: 0;
+  padding-bottom: 70px;
+  position: fixed;
+}
+.side-menu .topbar-left {
+  padding-left: 20px;
+}
+.logo {
+  line-height: 80px;
+}
+.sidebar-menu {
+  background-color: #263238;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.sidebar-inner {
+  overflow: hidden;
+  width: auto;
+  height: 378px;
+}
+#sidebar-menu, #sidebar-menu ul, #sidebar-menu li, #sidebar-menu a {
+  border: 0;
+  font-weight: normal;
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+}
+#sidebar-menu > ul > li > a.active {
+  color: rgba(255, 255, 255, 0.8);
+}
+#sidebar-menu > ul > li.nav-active > a {
+  color: rgba(255, 255, 255, 0.8);
+}
+#sidebar-menu > ul > li.nav-active > ul {
+  display: block;
+}
+.side-menu {
+  bottom: 0;
+  top: 0;
+  width: 240px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background: #263238;
+  position: absolute;
+  z-index: 99;
+}
+#sidebar-menu > ul > li > a {
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 12px 20px;
+}
+#sidebar-menu > ul > li > a > i {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 17px;
+  margin-left: 3px;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+}
+#sidebar-menu > ul > li > a:hover {
+  color: rgba(5, 5, 5, 0.8);
+  text-decoration: none;
+  background-color: #ccc;
+  transition: all 0.4s ease-in-out;
+}
+#sidebar-menu ul li{
+  cursor: pointer;
+}

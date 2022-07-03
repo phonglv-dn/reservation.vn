@@ -1,0 +1,87 @@
+.nc-congratulation{
+  max-width: 900px;
+  width: 100%;
+}
+.nc-congratulation__box{
+  padding: 32px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+}
+.nc-congratulation__top img{
+  width: 160px;
+  height: 160px;
+  border-radius:16px;
+  overflow: hidden;
+}
+.nc-congratulation__box h2{
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.nc-congratulation__border{
+  border-bottom: 1px solid #ccc;
+  margin-top:32px;
+}
+.nc-congratulation__booking h3,
+.nc-congratulation__detail h3{
+  font-size: 24px;
+  line-height: 32px;
+  margin: 32px 0;
+  font-weight: 600;
+}
+.nc-congratulation__tiltepay{
+  padding: 20px;
+}
+.nc-congratulation__info-hotel--title{
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 20px;
+}
+.nc-congratulation__info-hotel--cate{
+  margin-top: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+  font-weight:500;
+  margin-bottom: 12px;
+}
+.border-nc-congratulation{
+  width: 48px;
+  max-width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin: 16px 0;
+}
+.nc-congratulation__star i{
+  color: rgb(239 68 68);
+  margin-right:4px;
+}
+.congratulation__border{
+  margin-top:24px;
+}
+.nc-congratulation__detail--item-top{
+  color: rgb(75,85,99);
+}
+.nc-congratulation__detail--item-bot{
+  color:rgb(17,24,39);
+  font-weight: 500;
+}
+.nc-congratulation__button {
+  margin-top: 32px;
+}
+.nc-congratulation__button button{
+  font-size: 16px;
+  padding: 10px 24px;
+  line-height: 24px;
+  border-radius: 32px;
+  color: #fff;
+  border:none;
+  background: #4F46E5;
+  font-weight: 500;
+}
+.nc-congratulation__button button:hover{
+  background-color:rgb(67,56,202);
+  transition: .3s;
+}

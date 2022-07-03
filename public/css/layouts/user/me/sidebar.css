@@ -1,0 +1,62 @@
+h3.user-name {
+  font-weight: 500;
+}
+
+.sidebar, .me-tab {
+  border-radius: 1rem;
+}
+
+.sidebar .avatar-wrapper {
+  border: 1px solid rgb(229,231,235);
+  border-radius: 1rem;
+}
+
+.avatar-wrapper .wil-avatar {
+  border-radius: 1rem;
+}
+
+.avatar-wrapper .wil-avatar img {
+  object-fit: cover;
+}
+
+.avatar-wrapper .black-coating {
+  cursor: pointer;
+  opacity: 0;
+  transition: .3s;
+}
+
+.avatar-wrapper .black-coating:hover {
+  opacity: .6;
+}
+
+.black-coating input {
+  cursor: pointer;
+}
+
+.bar-item {
+  cursor: pointer;
+  color: rgba(var(--c-neutral-500));
+  font-weight: 500;
+  border-radius: 1rem;
+  transition: .3s;
+}
+
+.bar-item.current-tab {
+  color: rgba(var(--c-secondary-50));
+  background-color: rgba(var(--c-secondary-800));
+}
+
+.bar-item:hover {
+  color: rgba(var(--c-secondary-50));
+  background-color: rgba(var(--c-secondary-800));
+  opacity: .6;
+}
+
+.bar-item.current-tab:hover {
+  color: rgba(var(--c-secondary-50));
+  background-color: rgba(var(--c-secondary-800));
+}
+
+.bar-item .icon-button {
+  font-size: 25px;
+}

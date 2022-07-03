@@ -1,0 +1,23 @@
+.us-section-title {
+  max-width: 800px;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.btn-show-more {
+  width: 20%;
+}
+
+@media (min-width: 768px) {
+    .us-section-title h2 {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .us-section-title span {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }  
+}

@@ -1,0 +1,110 @@
+.white-box {
+  background: #fff;
+  padding: 25px;
+  box-shadow: 1px 0px 20px rgb(0 0 0 / 20%);
+}
+.profile-ad__container{
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.card{
+  box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+}
+.user-bg {
+  height: 169px;
+  overflow: hidden;
+  position: relative;
+}
+.user-bg .overlay-box {
+  background: transparent;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  text-align: center;
+}
+.user-bg .overlay-box .user-content .thumb-lg {
+  position: relative;
+}
+.user-bg .overlay-box .user-content .text-white {
+  font-weight: 300;
+}
+.user-bg .overlay-box .user-content h4 {
+  line-height: 22px;
+  font-size: 18px;
+}
+.adm-changeimg {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  transition: all 0.6s;
+}
+.adm-changeimg:hover {
+  opacity: 0.8;
+}
+.form-password {
+  margin-left: 300px;
+}
+.form-pw {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.text-errors-form{
+  color:rgb(255, 0, 0);
+}
+.form-horizontal .form-group .btn-success {
+  color: #fff;
+}
+.btn-success {
+  color: #fff;
+  background-color: #7ace4c;
+  border-color: #7ace4c;
+  -webkit-box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 20%);
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 20%);
+}
+.card-body {
+  padding: 25px;
+  color: #263238;
+}
+.box-border{
+  padding: 25px;
+  box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+  border: 1px solid rgba(0,0,0,.125);
+  background-color: #fff;
+}
+.img-avatar-admin{
+  overflow: hidden;
+  cursor: pointer;
+  object-fit: cover;
+}
+.title-update-avatar{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn-manage-user{
+  background-color: rgb(240,253,250);
+    border-color: rgb(240,253,250);
+    box-shadow: 0 4px 6px rgb(50 50 93 / 5%), 0 1px 3px rgb(0 0 0 / 5%);
+}
+.btn-manage-user:hover{
+  opacity: .6;
+  transition: all .2s;
+}
+.btn-update-avatar{
+  color:#fff;
+}
+.btn-cancel {
+  color: #fff;
+  background-color: #DD0000;
+  border-color: #DD0000;
+  -webkit-box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 20%);
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 20%);
+}

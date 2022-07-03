@@ -1,0 +1,15 @@
+.manage-hotels{
+  margin-left: 240px;
+  margin-top: 45px;
+  &__btn span{
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  &__btn span:hover{
+    background: #ccc;
+    transition: all 0.4s ease-in-out;
+  }
+}

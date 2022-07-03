@@ -1,0 +1,48 @@
+.us-hotel-details-images, .hotel-image-wrap {
+  cursor: pointer;
+  border-radius: .375rem;
+}
+
+.hotel-image {
+  cursor: default;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: .375rem;
+  transition: .3s;
+}
+
+.hotel-image img {
+  object-fit: cover;
+  opacity: 0;
+}
+
+.btn-show-all-wrap {
+  left: 15px;
+  bottom: 60px;
+}
+
+.btn-show-all {
+  padding: 14px 12px;
+  background-color: rgb(255, 255, 255, .8);
+  border: none;
+  font-weight: 500;
+  border-radius: 14px;
+  transition: .3s;
+}
+
+@media (min-width: 768px) {
+  .btn-show-all:hover {
+    background-color: rgb(255, 255, 255, 1);
+  }
+}
+
+@media (min-width: 640px) {
+  .us-hotel-details-images, .hotel-image-wrap {
+    border-radius: .75rem;
+  }
+
+  .hotel-image {
+    border-radius: .75rem;
+  }
+}

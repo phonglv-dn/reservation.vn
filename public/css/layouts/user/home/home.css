@@ -1,0 +1,55 @@
+.us-bg-glassmorphism {
+  left: 0;
+  right: 0;
+  padding-left: 80px;
+  padding-bottom: 96px;
+  padding-top: 96px;
+  min-height: 0;
+  z-index: 0;
+}
+
+.us-bg-glassmorphism span {
+  border-radius: 50%;
+  width: 288px;
+  height: 288px;
+  opacity: .1;
+  mix-blend-mode: multiply;
+  filter: blur(64px);
+}
+
+.us-bg-glassmorphism span:first-child {
+  background-color: #ef233c;
+}
+.us-bg-glassmorphism span:last-child {
+  background-color: #04868b;
+  margin-top: 160px;
+  margin-left: -80px;
+}
+
+.us-home__container {
+  display: block!important;
+  margin-bottom: 96px;
+}
+
+@media (min-width: 1280px) {
+    .us-bg-glassmorphism {
+      top: 160px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .us-bg-glassmorphism span {
+    width: 384px;
+    height: 384px;
+  }
+
+  .us-home__container {
+    margin-bottom: 128px;
+  }
+}
+
+@media (min-width: 768px) {
+    .us-bg-glassmorphism {
+      top: 40px;
+  }
+}

@@ -1,0 +1,93 @@
+.about-us{
+  &__text{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    h2{
+      text-align: left;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 1.25;
+      margin-bottom: 30px;
+    }
+    span{
+      font-size: 18px;
+      line-height: 24px;
+      color: rgb(75,85,99);
+    }
+  }
+  &__img{
+    img{
+      width: 100%;
+    }
+  }
+}
+.founder{
+  &__text{
+    h2{
+      text-align: left;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 1.25;
+      margin-bottom: 30px;
+    }
+    span{
+      font-size: 18px;
+      line-height: 24px;
+      color: rgb(75,85,99);
+    }
+  }
+  &__person{
+    img{
+      width: 100%;
+      object-fit: cover;
+      height: 267px;
+      border-radius: 12px;
+    }
+    h3{
+      font-size: 20px;
+      line-height: 28px;
+      color: rgb(17,24,39);
+      margin-top: 16px;
+      font-weight: 600;
+    }
+    span{
+      font-size: 16px;
+      line-height: 24px;
+      color: rgb(107,114,128);
+    }
+  }
+}
+.about-statistical{
+  &__title{
+    h2{
+      text-align: left;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 1.25;
+      margin-bottom: 30px;
+    }
+    span{
+      font-size: 18px;
+      line-height: 24px;
+      color: rgb(75,85,99);
+    }
+  }
+  &__text{
+    background-color:rgb(249,250,251);
+    border-radius: 16px;
+    h3{
+      font-size: 30px;
+      line-height: 36px;
+      color: rgb(17,24,39);
+      font-weight: 600;
+    }
+    span{
+      font-size: 16px;
+      line-height: 24px;
+      color: rgb(107,114,128);
+      margin-top: 12px;
+    }
+  }
+}

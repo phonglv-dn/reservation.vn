@@ -1,0 +1,10 @@
+.us-profile h1 {
+  font-size: 5rem;
+}
+.us-profile h1 a {
+  color: rgba(var(--c-primary-600));
+  transition: .3s;
+}
+.us-profile h1 a:hover {
+  color: rgba(var(--c-primary-700));
+}

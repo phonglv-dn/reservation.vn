@@ -1,0 +1,51 @@
+.us-section-our-features {
+  margin-top: 64px;
+  margin-bottom: 0;
+}
+
+.us-features-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.us-features-right {
+  max-width: 672px;
+  margin-top: 40px;
+}
+
+.us-feature-tag {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 1rem;
+}
+
+.us-feature-title {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.us-feature-sub {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.us-features-contents {
+  margin-top: 32px;
+}
+
+@media (min-width: 1024px) {
+  .us-section-our-features {
+    margin-top: 96px;
+    padding-bottom: 56px;
+    padding-top: 56px;
+  }
+
+  .us-features-right {
+    padding-left: 64px;
+    margin-top: 0;
+    width: 40%;
+  }
+}

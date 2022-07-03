@@ -1,0 +1,124 @@
+.hotel-details-main__container {
+  z-index: 10;
+}
+
+.listing-section__wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgba(var(--c-neutral-200));
+  padding-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.share-this-hotel {
+  margin-bottom: -6px;
+  margin-top: -6px;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.share-this-hotel__item {
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.share-this-hotel__item:hover {
+  background-color: rgb(243,244,246);
+}
+
+.hotel-details-align {
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.hotel-info__name {
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
+.hotel-info__title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.hotel-details-desc {
+  height: 215px;
+  overflow: hidden;
+}
+
+.hotel-details-desc.active {
+  height: auto;
+}
+
+.hotel-details-desc::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(transparent, #fff);
+  z-index: 5;
+  
+}
+
+.hotel-details-desc.active::before {
+  display: none;
+}
+
+.btn-desc-readmore {
+  z-index: 6;
+  cursor: pointer;
+  color: #000;
+  width: fit-content;
+}
+
+.btn-desc-readmore::before {
+  content: '...Xem thêm';
+}
+
+.btn-desc-readmore.active::before {
+  content: 'Ẩn bớt';
+}
+
+.hotel-details__desc {
+  line-height: 1.75;
+  overflow: hidden;
+}
+
+@media (min-width: 1280px) {
+  .listing-section__wrap {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hotel-info__name {
+    font-size: 212px;
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .listing-section__wrap {
+    border-left-width: 1px;
+    border-radius: 1rem;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    padding: 32px;
+  }
+  
+  .hotel-details-align {
+    margin-bottom: 0;
+  }
+  
+  .hotel-info__name {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+}

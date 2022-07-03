@@ -1,0 +1,38 @@
+.us-common-card {
+  cursor: pointer;
+  will-change: transform;
+  max-width: 100%;
+  transition-duration: .15s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  border-color: rgba(var(--c-neutral-100));
+  border-radius: 1rem 0;
+  filter: brightness(0.8);
+  transition: .3s;
+}
+
+.us-city-card {
+  width: 227px;
+  max-width: 100%;
+}
+
+.us-image-city {
+  border-radius: 1.5rem;
+}
+
+.us-image-city img {
+  height: 318px;
+  transition: .3s;
+}
+
+@media (min-width: 768px) {
+  .us-common-card:hover {
+    filter: brightness(1);
+  }
+}
+
+@media (min-width: 640px) {
+  .us-card-category h2 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}

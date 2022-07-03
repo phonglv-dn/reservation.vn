@@ -1,0 +1,76 @@
+.popup-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal-hotel-wrap {
+}
+
+.pi-btn-close {
+  top: 16px;
+  right: 16px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 32px;
+  color: #FFF;
+  background-color: transparent;
+  font-size: 40px;
+  transition: .3s;
+  z-index: 1;
+}
+
+.pi-btn-close:hover {
+  --tw-bg-opacity: .4;
+  background-color: rgba(0 0 0/0.4);
+}
+
+.img-modal {
+  width: 100vw;
+  max-width: 100%;
+}
+
+.img-modal__btn {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding-left: 256px;
+  padding-right: 256px;
+}
+
+.img-modal__btn__btn--left {
+  margin-left: 10px;
+  border-radius: 32px;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(229, 231, 235);
+}
+
+.img-modal__btn__btn--right {
+  margin-left: 10px;
+  background-color: #fff;
+  width: 40px;
+  border-radius: 32px;
+  height: 40px;
+  border: 1px solid rgb(229, 231, 235);
+}
+
+.img-modal__top,
+.img-modal__bottom {
+  max-height: 100%;
+}
+.img-modal__top {
+  height: 500px;
+  margin-bottom: 45px;
+}
+
+.img-modal__bottom {
+  height: 110px;
+}
+
+.sub-modal {
+  max-width: 90%;
+}

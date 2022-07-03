@@ -1,0 +1,75 @@
+#table-wrapper {
+  position: relative;
+}
+
+#table-scroll {
+  height: 235px;
+  overflow: auto;
+}
+
+.styled-table {
+  width: 100%;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.booking-filter {
+  top: -55px;
+  right: 0;
+  z-index: 1;
+}
+
+.booking-filter__input {
+  overflow: hidden;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(var(--c-neutral-200), var(--tw-border-opacity));
+}
+
+.booking-filter__input:focus-visible {
+  outline: none;
+}
+
+.booking-title {
+  position: sticky;
+  top: 0;
+  background-color: #f7f7f7;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.styled-table tbody tr {
+  cursor: pointer;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.styled-table tbody tr:hover {
+  color: #fff;
+  background-color: rgba(var(--c-secondary-800));
+}
+
+.styled-table tr th,
+.styled-table tr td
+{
+  border: 0;
+  padding: 20px 10px;
+}
+
+/* Scroll Bar Style */
+#table-scroll::-webkit-scrollbar-track
+{
+	background-color: #F5F5F5;
+}
+
+#table-scroll::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#table-scroll::-webkit-scrollbar-thumb
+{
+	background-color: rgba(var(--c-secondary-800), .3);
+}

@@ -1,0 +1,46 @@
+.me-tab__title {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+
+}
+
+.me-welcome p {
+  line-height: 1.5;
+}
+
+.me-welcome p span {
+  font-weight: 500;
+  color: rgba(var(--c-primary-600));
+  transition: .3s;
+}
+
+
+.updating-avt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.coating {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  opacity: 0.8;
+}
+
+span.css-xv4gb0 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

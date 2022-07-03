@@ -1,0 +1,31 @@
+.hotels-details-sidebar {
+  top: 6rem;
+}
+
+.listing-section-sidebar__wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-color: rgba(var(--c-neutral-200));
+  border-radius: 1rem;
+  border-width: 1px;
+  padding:2.25rem 2rem;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.hd-bill-price {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+@media (min-width: 1280px) {
+  .listing-section-sidebar__wrap {
+    padding: 2.5rem 2rem;
+}
+}
+
+@media (min-width: 640px) {
+  .listing-section-sidebar__wrap {
+    padding: 1.75rem 1rem;
+  }
+}

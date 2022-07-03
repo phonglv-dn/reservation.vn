@@ -1,0 +1,156 @@
+.related-hotels{
+  border-radius: 40px;
+  background-color: rgb(243,244,246);
+  cursor: pointer;
+  &__title{
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 8px;
+    h2{
+      font-size: 36px;
+      line-height: 40px;
+      font-weight: 600;
+    }
+    p{
+      font-size: 20px;
+      line-height: 44px;
+      font-weight: 400;
+    }
+  }
+  &__slider{
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 224px !important;
+    max-width: 100%;
+    &--img img{
+      height:170px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+      filter: brightness(0.8);
+    }
+    &--img img:hover{
+      filter: brightness(1);
+      transition: all 0.3s;
+    }
+    &--title{
+      h2{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+      }
+      p{
+        font-size: 14px;
+        line-height: 20px;
+        color:rgb(75,85,99);
+      }
+    }
+  }
+  &__btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 70px;
+    &--left{
+      margin-left: 10px;
+      border-radius: 32px;
+      background-color: #fff;
+      width: 40px;
+      height: 40px;
+      border: 1px solid rgb(229,231,235);
+    }
+    &--right{
+      margin-left: 10px;
+      background-color: #fff;
+      width: 40px;
+      border-radius: 32px;
+      height: 40px;
+      border: 1px solid rgb(229,231,235);
+    }
+  }
+  &__btn button:hover{
+    background-color:rgba(209,213,219,0.6);
+    transition: all 0.3s;
+  }
+}
+.slick-slider .slick-list{
+  overflow: hidden;
+}
+.slick-slider .slick-track{
+  display: flex;
+}
+.slick-slider .slick-arrow{
+  display: none !important;
+}
+.single-blog{
+  margin: 80px 0;
+  &__header{
+    max-width:767px;
+    width: 100%;
+    h1{
+      font-weight: 600;
+      margin: 20px 0;
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+    &--badge{
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      padding: 4px 10px;
+      border-radius:32px;
+      background-color: rgb(243 232 255)
+    }
+    &--bot img{
+      object-fit: cover;
+      width: 44px;
+      height: 44px;
+      border-radius:32px;
+    }
+    &--bot i{
+      font-size: 24px;
+      line-height: 32px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+  &__img-top img{
+    width: 100%;
+    border-radius:12px;
+  }
+  &__content{
+    max-width: 768px;
+    line-height: 1.5;
+  }
+  &__content h3{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  &__content img{
+    margin-top: 40px;
+    width: 100%;
+    border-radius:12px;
+  }
+  &__comment{
+    max-width: 768px;
+    margin-top: 32px;
+    &--form textarea{
+      border-radius: 16px;
+      border-color: rgb(229,231,235);
+      padding: 8px;
+    }
+    &--form textarea:focus{
+      border-color: rgb(165,180,252);
+    }
+    &--form textarea:focus-visible{
+      outline: rgb(165,180,252);
+    }
+  }
+  &__comment img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+  }
+}

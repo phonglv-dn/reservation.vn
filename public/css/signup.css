@@ -1,0 +1,81 @@
+.us-signup {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: rgb(243,244,246);
+}
+
+.us-signup__container {
+  padding-top: 80px;
+  padding-bottom: 96px;
+}
+
+.us-signup__wrap {
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+  0 10px 10px rgba(0,0,0,0.22);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.us-signup__title {
+  font-size: 3rem;
+  line-height: 115%;
+}
+
+.us-signup__contents {
+  max-width: 450px;
+}
+
+.us-will-change-transform {
+  background-color: rgb(238 242 255);
+  transition: .3s;
+}
+
+.us-will-change-transform:hover {
+  transform: translateY(-5%);
+}
+
+.line-text {
+  z-index: 10;
+}
+
+.line {
+  background-color: rgb(243, 244, 246);
+}
+
+.us-signup__contents--form {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.input-wrapper label {
+  --tw-text-opacity: 1;
+    color: rgba(var(--c-neutral-800),var(--tw-text-opacity));
+}
+
+.input-wrapper input{
+  height: 2.75rem;
+  border: 1px solid rgb(229,231,235);
+  border-radius: 1rem;
+}
+
+.input-wrapper input:focus {
+  border-color: rgb(165, 180, 252);
+  outline: none;
+}
+
+.us-button-cancel {
+  background-color: #fff;
+  border: 1px solid #4F46E5;
+  color: #000;
+  transition: .3s;
+}
+.us-button-cancel:hover {
+  background-color: rgba(67,56,202) ;
+  color: #fff;
+}
+.already-have-an-account a:hover {
+  color: rgb(24, 130, 192);
+}

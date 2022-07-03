@@ -1,0 +1,85 @@
+.us-stay-card {
+  cursor: pointer;
+  will-change: transform;
+  max-width: 100%;
+  transition-duration: .15s;
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  border-color: rgba(var(--c-neutral-100));
+  border-radius: 16px;
+  box-shadow: rgba(100, 100, 111, 0.25) 0px 7px 29px 0px;
+  transition: .3s;
+}
+
+.us-stay-card__wrap {
+  transition: .3s;
+}
+
+.us-stay-card__wrap:hover {
+  transform: scale(1.02);
+}
+
+.us-hotel-image {
+  height: 240px;
+}
+
+.us-hotel-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: .3s;
+}
+
+.us-btn-like-icon {
+  cursor: pointer;
+  top: 12px;
+  right: 12px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: .3s;
+  z-index: 1;
+}
+
+.us-btn-like-icon:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.us-sale-off-badge {
+  left: 12px;
+  top: 12px;
+}
+
+.us-hotel-title {
+  font-size: 16px;
+  font-weight: 700 !important;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.us-hotel-title__span, .us-hotel-desc {
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+}
+
+.us-hotel-title__span {
+  -webkit-line-clamp: 1;
+}
+
+.us-hotel-desc {
+  font-size: 14px;
+  -webkit-line-clamp: 2;
+  line-height: 1.25;
+}
+
+.us-start-rating svg {
+  color: rgb(239 68 68);
+  font-size: 16px;
+  margin-bottom: 2px!important;
+}
+
+.hotel-addr-card {
+  font-size: 14px;
+}

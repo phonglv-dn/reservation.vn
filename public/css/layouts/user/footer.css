@@ -1,0 +1,54 @@
+.us-footer {
+  padding: 48px 0;
+  background: #fff;
+  color: #333;
+  opacity: 0.9;
+}
+.us-footer .footer-site-logo {
+  color: #333;
+  font-size: 26px;
+  font-weight: bold;
+}
+.us-footer h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+.us-footer .links li {
+  margin-bottom: 10px;
+}
+.us-footer .links li a {
+  color: #333;
+  opacity: 0.7;
+  transition:all .3s;
+}
+.us-footer .link-menu.nav-left li:first-child a {
+  padding-left: 0;
+}
+.us-footer .link-menu li a {
+  color: #333;
+  display: inline-block;
+  padding: 10px;
+}
+.us-footer .social li {
+  display: block;
+}
+.us-footer .social li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  opacity: .6;
+  transition:all .3s;
+}
+.us-footer .social li a:first-child {
+  padding-left: 0;
+}
+.us-footer .social li a:last-child {
+  padding-left: 0;
+}
+.us-footer .links li a:hover {
+  opacity: 1;
+}
+.us-footer .social li a:hover {
+  opacity: 1;
+}

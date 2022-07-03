@@ -1,0 +1,184 @@
+.us-header {
+  background: #fff;
+}
+
+.us-header__nav {
+  background-color: rgb(255 255 255/0.7);
+  backdrop-filter: blur(40px);
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+  z-index: 10;
+}
+
+.ttnc-logo {
+  height: fit-content;
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+}
+
+.us-header .vertical-bar {
+  border-left:1px solid rgb(209 213 219);
+  height: 25px;
+}
+
+.us-header__nav .btn-dropdown {
+  background-color: transparent;
+  opacity: 0.9;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+
+.sub {
+  font-size: .875rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128/var(--tw-text-opacity));
+}
+
+.us-header__nav .btn-dropdown .btn-dropdown__wrap {
+  opacity: .8;
+  transition: .3s;
+}
+
+.us-header__nav .btn-dropdown .btn-dropdown__wrap:hover {
+  opacity: 1;
+}
+
+.us-header__nav .DropdownTravelers .dropdown {
+  left: 0;
+  max-width: 320px;
+  z-index: 40;
+}
+
+.us-header__nav .dropdown .dropdown__contents {
+  border: 1px solid #eaeaea;
+  border-radius: 1rem;
+}
+
+.us-header__nav .dropdown .dropdown__contents--items {
+  grid-template-columns: repeat(1,minmax(0,1fr));
+}
+.us-header__nav .dropdown .dropdown__contents--items a {
+  opacity: .9;
+  margin: -12px;
+  border-radius: .5rem;
+  transition: .15s ease-in-out;
+  transition-property: all;
+}
+.us-header__nav .dropdown .dropdown__contents--items a:hover {
+  opacity: 1;
+  background-color: #c8c8c840;
+}
+.item-icon-travelers {
+  background-color: rgb(238, 242, 255);
+}
+.item-icon-travelers {
+  width: 48px;
+  height: 48px;
+  color: rgb(99,102,241);
+  font-size: x-large;
+}
+
+.item-contents__title {
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.dropdown__contents .documentation {
+  cursor: pointer;
+  background-color: rgb(249, 250, 251);
+}
+
+.iconSw {
+  font-size: 20px;
+}
+
+.currency, .language {
+  max-width: 140px;
+  right: 0;
+  z-index: 10;
+}
+
+.listYourProp {
+  cursor: pointer;
+  opacity: .9;
+  border-color: rgb(209 213 219);
+  transform: translateY(-10%);
+}
+
+.listYourProp:hover {
+  opacity: 1;
+  border-color: rgb(156 163 175)!important;
+}
+
+.notification button {
+  opacity: .9;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  transform: translateY(-10%);
+  transition: .3s;
+}
+
+.notification button:hover {
+  opacity: 1;
+  background-color: rgb(243 244 246);
+}
+
+.notification button span {
+  transform: translate(-75%, 50%);
+}
+
+.iconNotify {
+  font-size: 22px;
+}
+
+.AvatarDropdown .btn-dropdown {
+  transform: translateY(-10%);
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 6px;
+  margin-right: 6px;
+  transition: .3s;
+}
+
+.AvatarDropdown .btn-dropdown:hover {
+  opacity: 1;
+  border-radius: 50%;
+  background-color: rgb(243 244 246);
+}
+
+.header-avatar {
+  width: 36px;
+  height: 36px;
+}
+
+.header-avatar img {
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: .6s;
+}
+.header-avatar img:hover {
+  filter: brightness(0.8);
+}
+
+.avatar {
+  max-width: 260px;
+  z-index: 10;
+}
+
+.show {
+  transform: scaleY(1);
+  transform-origin: center;
+  transition: 300ms;
+}
+
+.hide {
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: .3s;
+}

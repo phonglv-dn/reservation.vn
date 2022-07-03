@@ -1,0 +1,174 @@
+#customers {
+  font-family: 'Open Sans', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+}
+@keyframes modalFaceIn {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0%);
+      opacity: 1;
+  }
+}
+#customers td, #customers th {
+  padding: 8px;
+  border-bottom: 2px solid #dee2e6;
+  text-align: center;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 2px solid #dee2e6;
+  border-top: 2px solid #dee2e6;
+}
+
+.btn-edit{
+  margin-right: 20px;
+}
+.btn-edit .btn-delete{
+  border-radius: 10px;
+}
+.user-container{
+  margin-left: 240px;
+  margin-top: 45px;
+}
+.title-update-popup{
+  font-size:2rem;
+  font-weight:500;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.modal-edit{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-container{
+  background: #fff;
+  width: 600px;
+  max-width: 100%;
+  min-width: 200px;
+  position: relative;
+  padding: 30px;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  animation: modalFaceIn ease .5s;
+}
+
+.us-edit__input{
+  width: 100%;
+  border: 1px solid rgb(229,231,235);
+  height: 30px;
+}
+.us-edit__input:focus-visible {
+  border-color: rgb(165, 180, 252);
+  outline: none;
+}
+.btn-popup-update{
+  margin-top: 20px;
+  text-align: right;
+}
+.btn-popup-update-success{
+  margin-right: 20px;
+}
+
+.checkRole {
+  border: 1px solid rgb(229,231,235);
+  font-size: 14px;
+}
+.checkRole:focus-visible {
+  outline: none;
+}
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+  padding-right: 30px;
+}
+table#customers {
+  clear: both;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+  max-width: none !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+.popup-confirm{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.03);
+  align-items: center;
+  justify-content: center;
+}
+.popup-confirm__box{
+  background: #fff;
+  width: 420px;
+  max-width: 100%;
+  min-width: 200px;
+  position: relative;
+  text-align:center;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  padding: 30px;
+  animation: modalFaceIn ease .5s;
+}
+.popup-confirm__title{
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.popup-confirm__button{
+  display: flex;
+  justify-content: space-evenly;
+}
+.popup-confirm__button--success , .popup-confirm__button--cancel{
+  width: 90px;
+}
+.custom-select-sm {
+  height: calc(1.5em + 0.5rem + 2px);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  font-size: .875rem;
+}
+.search-table{
+  margin-right: 10px;
+}
+.sorting{
+  font-weight: bold;
+  color: #333;
+}
+.list-user-deleted span{
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+.list-user-deleted span:hover{
+  background:#ccc;
+  transition: all 0.4s ease-in-out;
+}
